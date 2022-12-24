@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* * {
+            background-color: tomato;
+        } */
+        /* li {
+            color: green;
+        } */
+        /* id and class */
+
+        /* #item-one {
+            color: red;
+        } */
+
+        /* .green {
+            color: green;
+        } */
+
+        /* div.green {
+            color: green;
+        } */
+
+        /* div.green.red {
+            color: red;
+            background-color: green;
+        } */
+
+        /* p,
+        li.green {
+            background-color: green;
+        } */
+
+        /* div b {
+            background-color: aquamarine;
+        } */
+        /* 
+        p>b {
+            background-color: aquamarine;
+        } */
+
+        /* li.green~li {
+            background-color: green;
+        } */
+        /* li.green+li {
+            background-color: green;
+        } */
+
+        /* li:hover {
+            background-color: lightgrey;
+        } */
+        /* input:focus {
+            background-color: aqua;
+        } */
+        /* input:required {
+            background-color: aqua;
+        } */
+        /* li:first-child {
+            background-color: aqua;
+        } */
+        /* li:last-child {
+            background-color: aqua;
+        } */
+        /* li:nth-child(2n-1) {
+            background-color: aqua;
+        } */
+
+        div.green::before {
+
+            content: 'before div';
+            background-color: aqua;
+        }
+
+        div.green::after {
+
+            content: 'after div';
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="green red">This is a div</div>
+
+    <input required />
+    <div>
+        <p>
+            <b>This is a paragraph</b>
+        </p>
+    </div>
+    <ol>
+        <li>Item 1</li>
+        <li class="green">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+</body>
+
+</html>
