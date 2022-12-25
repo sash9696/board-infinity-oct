@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size</title>
+    <style>
+        .box {
+            background-color: aquamarine;
+            height: 40px;
+            margin-bottom: 40px;
+        }
+
+        .four-hundred-pixel {
+            width: 400px;
+        }
+
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .fifty-vw {
+            width: 50vw;
+        }
+
+        .parent {
+            width: 50vw;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Size</h1>
+
+    <div class="box four-hundred-pixel">400px</div>
+
+    <div class="box fifty-percent">50%</div>
+    <div class="box fifty-vw">50vw</div>
+
+    <div class="parent">
+        <div class="box four-hundred-pixel">400px</div>
+
+        <div class="box fifty-percent">50%</div>
+        <div class="box fifty-vw">50vw</div>
+    </div>
+
+
+
+</body>
+
+</html>
