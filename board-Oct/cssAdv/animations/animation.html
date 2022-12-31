@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: tomato;
+            position: relative;
+
+            /* animation-name: changeColor;
+            animation-duration: 5s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(0, -0.52, 1, 1.79); */
+            animation: 5s changeColor ease-in-out infinite alternate;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* border: 5px solid black;  shorthand property*/
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: black; */
+        }
+
+        @keyframes changeColor {
+            /* from {
+                background-color: tomato;
+            }
+
+            to {
+                background-color: aqua;
+            } */
+
+            /* 0% {
+                background-color: tomato;
+                left: 0px;
+                top: 0px;
+            }
+
+            33% {
+                background-color: gold;
+                left: 220px;
+                top: 0px;
+
+            }
+
+            66% {
+                background-color: green;
+                left: 220px;
+                top: 220px;
+
+            }
+
+
+            100% {
+                background-color: blue;
+
+
+            } */
+            0% {
+                background-color: tomato;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: gold;
+                left: 220px;
+                top: 0px;
+
+            }
+
+            50% {
+                background-color: green;
+                left: 220px;
+                top: 220px;
+
+            }
+
+            75% {
+                background-color: gray;
+                left: 0;
+                top: 220px;
+
+            }
+
+
+            100% {
+                background-color: tomato;
+                left: 0px;
+                top: 0px;
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animations</h1>
+    <div></div>
+</body>
+
+</html>

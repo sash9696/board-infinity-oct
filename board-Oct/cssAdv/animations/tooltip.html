@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        .tooltip .text {
+            visibility: hidden;
+            width: 150px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 16px;
+            background-color: black;
+            color: whitesmoke;
+            position: absolute;
+
+        }
+
+        .tooltip:hover .text {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tooltip</h1>
+
+    <div class="tooltip">Javascript
+        <span class="text">It is a synchronous single threaded language</span>
+    </div>
+</body>
+
+</html>
