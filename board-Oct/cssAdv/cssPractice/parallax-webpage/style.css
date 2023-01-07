@@ -1,0 +1,56 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.parallaxImage1,
+.parallaxImage2,
+.parallaxImage3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallaxImage1 {
+    background-image: url('https://images.unsplash.com/photo-1490365728022-deae76380607?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+    min-height: 100%;
+}
+
+.parallaxImage2 {
+    background-image: url('https://images.unsplash.com/photo-1501949997128-2fdb9f6428f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    min-height: 400px;
+}
+
+.parallaxImage3 {
+    background-image: url('https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark {
+    background-color: black;
+    color: white;
+}
+
+.parallaxText {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
