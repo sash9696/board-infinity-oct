@@ -59,3 +59,47 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+
+@media (max-width: 1000px) {
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        margin: 50px;
+    }
+
+    .container .card {
+        flex-direction: row;
+        margin-top: 10px 0;
+    }
+
+    .container .card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .card .imgBox,
+    .card .content {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .container .card {
+        flex-direction: column;
+    }
+
+    .container .card:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .card .imgBox {
+        width: 100%;
+    }
+
+    .card .content {
+        height: 200px;
+        width: 100% !important;
+    }
+
+}

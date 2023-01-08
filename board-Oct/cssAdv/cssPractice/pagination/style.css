@@ -1,0 +1,33 @@
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.pagination a.active {
+    background-color: gold;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: lightgray;
+}
+
+.square {
+    width: 300px;
+    height: 100px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.rotate {
+    /* transform: rotateX(150deg); */
+    /* transform: rotateY(150deg); */
+    transform: rotateZ(135deg);
+
+}
