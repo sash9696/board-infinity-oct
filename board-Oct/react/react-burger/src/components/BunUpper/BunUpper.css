@@ -1,0 +1,7 @@
+.bunupper {
+    background-color: tomato;
+    height: 120px;
+    width: 100%;
+    border: 2px solid tomato;
+    border-radius: 100% 100% 20px 20px;
+}
