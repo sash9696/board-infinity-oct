@@ -1,9 +1,7 @@
 {
   "pokemon": [
     {
-      "id": {
-        "a": 1
-      },
+      "id": 1,
       "name": {
         "english": "Bulbasaur",
         "japanese": "フシギダネ",
@@ -88,7 +86,7 @@
     {
       "id": 5,
       "name": {
-        "english": 10,
+        "english": "Charmeleon",
         "japanese": "リザード",
         "chinese": "火恐龙",
         "french": "Reptincel"
