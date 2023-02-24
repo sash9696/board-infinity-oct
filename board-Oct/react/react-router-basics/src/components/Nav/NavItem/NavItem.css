@@ -1,0 +1,11 @@
+.nav_option {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav_option:hover {
+    color: white;
+    background-color: black;
+    padding: 2px 5px;
+
+}
