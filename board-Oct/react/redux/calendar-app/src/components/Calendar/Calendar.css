@@ -1,0 +1,32 @@
+.calendar_container {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.calendar_header_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.display {
+    border: 2px solid lightblue;
+    font-size: 40px;
+}
+
+.month_header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
