@@ -30,3 +30,8 @@ h2 {
     grid-template-columns: repeat(7, 1fr);
 
 }
+
+.left_arrow,
+.right_arrow {
+    cursor: pointer;
+}
